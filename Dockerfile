@@ -4,9 +4,9 @@ MAINTAINER vinay
 
 RUN echo "Tryin to build my first application"
 
-COPY . /var/www
+COPY . /usr/src/app
 
-WORKDIR /var/www
+WORKDIR /usr/src/app
 
 RUN npm install
 
